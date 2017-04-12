@@ -5,10 +5,10 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/line_dialog_title"
+        android:id="@+id/circle_dialog_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Statistics"
+        android:text="Edit shape attributes"
         android:textAllCaps="true"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
@@ -25,25 +25,26 @@
     </View>
 
     <LinearLayout
-        android:id="@+id/line_group_x"
+        android:id="@+id/circle_group_x"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             android:layout_margin="6dp"
-            android:id="@+id/line_length_x"
+            android:id="@+id/circle_length_x"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="left"
-            android:text="Length of X:"
+            android:text="Length of X: "
             android:textSize="16dp"
             android:layout_weight="1" />
-        <TextView
+        <EditText
             android:layout_margin="6dp"
             android:gravity="left"
-            android:id="@+id/line_value_x"
+            android:inputType="number"
+            android:id="@+id/circle_value_x"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -52,14 +53,15 @@
 
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/line_group_y"
+        android:id="@+id/circle_group_y"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
             android:layout_margin="6dp"
-            android:id="@+id/line_length_y"
+
+            android:id="@+id/circle_length_y"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -67,10 +69,11 @@
             android:text="Length of Y: "
             android:textSize="16dp"
             android:layout_weight="1" />
-        <TextView
+        <EditText
             android:layout_margin="6dp"
+            android:inputType="number"
             android:gravity="left"
-            android:id="@+id/line_value_y"
+            android:id="@+id/circle_value_y"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -78,60 +81,42 @@
             android:layout_weight="1" />
 
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/line_group_midPoint"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <TextView
-            android:layout_margin="6dp"
-            android:id="@+id/line_length_midPoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="left"
-            android:text="Mid-point (x, y): "
-            android:textSize="16dp"
-            android:layout_weight="1" />
-        <TextView
-            android:layout_margin="6dp"
-            android:gravity="left"
-            android:id="@+id/line_value_midPoint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="16dp"
-            android:layout_weight="1" />
+        <!--<CheckBox-->
+            <!--android:id="@+id/rb1"-->
+            <!--android:layout_margin="@string/dialog_attr_margin"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:text="Line"-->
+            <!--android:textSize="@string/dialog_attr_textSize" />-->
 
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/line_group_len"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        <!--<CheckBox-->
+            <!--android:id="@+id/rb2"-->
+            <!--android:layout_margin="@string/dialog_attr_margin"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:text="Rectangle"-->
+            <!--android:textSize="@string/dialog_attr_textSize" />-->
 
-        <TextView
-            android:layout_margin="6dp"
-            android:id="@+id/line_length_len"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="left"
-            android:text="Length of the line: "
-            android:textSize="16dp"
-            android:layout_weight="1" />
-        <TextView
-            android:layout_margin="6dp"
-            android:gravity="left"
-            android:id="@+id/line_value_len"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:textSize="16dp"
-            android:layout_weight="1" />
-
-    </LinearLayout>
+        <!--<CheckBox-->
+            <!--android:id="@+id/rb3"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+          <!---->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:text="Circle"-->
+            <!--android:textSize="@string/dialog_attr_textSize" />-->
+        <!--<CheckBox-->
+            <!--android:id="@+id/rb4"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:text="Oval"-->
+            <!--android:textSize="@string/dialog_attr_textSize" />-->
+   <!---->
 
     <Button
         android:id="@+id/custom_dialog_ok"

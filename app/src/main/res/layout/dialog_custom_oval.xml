@@ -78,6 +78,101 @@
             android:layout_weight="1" />
 
     </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="6dp"
+        android:background="@color/nn_gray"
+        />
+    <LinearLayout
+        android:id="@+id/oval_group_radiusX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/oval_length_radiusX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Radius (x): "
+            android:textSize="16dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_margin="6dp"
+            android:gravity="left"
+            android:id="@+id/oval_value_radiusX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/oval_group_radiusY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/oval_length_radiusY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Radius (y): "
+            android:textSize="16dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_margin="6dp"
+            android:gravity="left"
+            android:id="@+id/oval_value_radiusY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/oval_group_midPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/oval_length_midPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Mid-point (x, y): "
+            android:textSize="16dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_margin="6dp"
+            android:gravity="left"
+            android:id="@+id/oval_value_midPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="6dp"
+        android:background="@color/nn_gray"
+        />
     <LinearLayout
         android:id="@+id/oval_group_area"
         android:layout_width="match_parent"
@@ -105,7 +200,6 @@
             android:layout_weight="1" />
 
     </LinearLayout>
-
     <Button
         android:id="@+id/custom_dialog_ok"
         android:layout_marginTop="10dp"

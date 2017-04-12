@@ -4,8 +4,10 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_noshape"
-            android:title="No-shape"
-            />
+            android:title="No-shape" />
+        <item
+            android:id="@+id/nav_line"
+            android:title="Line" />
         <item
             android:id="@+id/nav_rectangle"
             android:title="Rectangle" />
@@ -13,11 +15,9 @@
             android:id="@+id/nav_circle"
             android:title="Circle" />
         <item
-            android:id="@+id/nav_oval"
-            android:title="Oval" />
-        <item
-            android:id="@+id/nav_line"
-            android:title="Line" />
+            android:id="@+id/nav_ellipse"
+            android:title="Ellipse" />
+
 
     </group>
     <!--android:icon="@drawable/ic_menu_camera"-->

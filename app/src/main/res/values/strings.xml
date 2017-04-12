@@ -13,4 +13,7 @@
         statistics such as coordinates, vector distance, and more.
         \n\n To see more, checkout my GitHub.\n
     </string>
+    <string name="pixel_hint">Enter value in px</string>
+    <string name="dialog_attr_textSize">24dp</string>
+    <string name="dialog_attr_margin">10dp</string>
 </resources>

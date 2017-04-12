@@ -3,7 +3,7 @@
     android:fillAfter="true">
 
     <rotate
-        android:duration="300"
+        android:duration="400"
         android:fromDegrees="180"
         android:toDegrees="360"
         android:interpolator="@android:anim/accelerate_interpolator"

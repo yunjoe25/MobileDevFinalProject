@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="left"
-            android:text="Length of X (radius):"
+            android:text="Length of X: "
             android:textSize="16dp"
             android:layout_weight="1" />
         <TextView
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="left"
-            android:text="Length of Y (radius): "
+            android:text="Length of Y: "
             android:textSize="16dp"
             android:layout_weight="1" />
         <TextView
@@ -78,6 +78,64 @@
             android:layout_weight="1" />
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/circle_group_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/circle_length_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Radius: "
+            android:textSize="16dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_margin="6dp"
+            android:gravity="left"
+            android:id="@+id/circle_value_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/circle_group_midPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_margin="6dp"
+            android:id="@+id/circle_length_midPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:text="Mid-point (x, y): "
+            android:textSize="16dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_margin="6dp"
+            android:gravity="left"
+            android:id="@+id/circle_value_midPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_margin="6dp"
+        android:background="@color/nn_gray"
+        />
     <LinearLayout
         android:id="@+id/circle_group_diameter"
         android:layout_width="match_parent"
