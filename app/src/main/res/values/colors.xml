@@ -13,11 +13,28 @@
     <color name="colorBlue">#0000FF</color>
     <color name="colorYellow">#FFFF00</color>
 
+    <color name="red" type="color">#FF0000</color>
+    <color name="n_red" type="color">#FF3333</color>
+    <color name="nn_red" type="color">#FF6666</color>
+
+    <color name="black" type="color">#000000</color>
+    <color name="n_black" type="color">#404040</color>
+    <color name="nn_black" type="color">#808080</color>
+
+    <color name="gray" type="color">#808080</color>
+    <color name="n_gray" type="color">#C0C0C0</color>
+    <color name="nn_gray" type="color">#F0F0F0</color>
+
+    <color name="mblue">#0000FF</color>
+    <color name="n_mblue">#3333FF</color>
+    <color name="nn_mblue">#6666FF</color>
+    <color name="white">#FFFFFF</color>
+
+
     <item name="blue" type="color">#FF33B5E5</item>
     <item name="purple" type="color">#FFAA66CC</item>
     <item name="green" type="color">#FF99CC00</item>
     <item name="orange" type="color">#FFFFBB33</item>
-    <item name="red" type="color">#FFFF4444</item>
     <item name="darkblue" type="color">#FF0099CC</item>
     <item name="darkpurple" type="color">#FF9933CC</item>
     <item name="darkgreen" type="color">#FF669900</item>
